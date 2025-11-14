@@ -5,6 +5,7 @@ A comprehensive guide to building privacy-focused AI applications using open-sou
 ## Why Self-Host?
 
 - **Privacy**: Your data never leaves your infrastructure
+- **Independence**: Avoid Google, Amazon, and Microsoft infrastructure entirely
 - **Cost**: After initial setup, cheaper than API services for heavy use
 - **Control**: Choose models, customise behaviour, no rate limits
 - **Learning**: Understand how LLMs work under the hood
@@ -55,8 +56,9 @@ llm-guide/
 │   ├── coding-partner/          # Docker configs, code for coder
 │   └── photo-management/        # Docker configs, code for photos
 └── docs/
+    ├── vps-providers.md         # Independent VPS providers (avoid big tech)
     ├── privacy.md               # Privacy and data security explained
-    ├── infrastructure.md        # VPS providers, home server, networking
+    ├── infrastructure.md        # Home server, networking, access methods
     ├── architecture.md          # Technical architecture details
     └── setup.md                 # Deployment walkthrough
 ```
@@ -91,12 +93,14 @@ All use cases follow this pattern:
 ## Infrastructure Recommendations
 
 ### Budget Option (£11-25/month)
-- **VPS**: Hetzner CPX31 or FastHosts 8GB
+- **VPS**: Hetzner CPX31 (£11) or Fasthosts 8GB (£20-25)
+- **Independence**: ⭐⭐⭐⭐⭐ (Own infrastructure, no big tech)
 - **Good for**: Personal assistant, light coding help
 - **Models**: 7B-8B models (Qwen2.5, Llama 3.1, Mistral)
 
-### Performance Option (£44-80/month)
-- **VPS**: Hetzner CCX33 or FastHosts 32GB
+### Performance Option (£44-90/month)
+- **VPS**: Hetzner CCX33 (£44) or Fasthosts 32GB (£70-90)
+- **Independence**: ⭐⭐⭐⭐⭐ (Own infrastructure, no big tech)
 - **Good for**: All use cases, multiple concurrent users
 - **Models**: Up to 14B models, or multiple 7B models
 
@@ -111,7 +115,9 @@ All use cases follow this pattern:
 - **Good for**: Maximum privacy and control, heavy usage
 - **Break-even**: ~2-3 years vs VPS
 
-See [infrastructure guide](./docs/infrastructure.md) for detailed comparisons
+See guides:
+- [VPS providers](./docs/vps-providers.md) - Independent providers (no Google/Amazon/Microsoft)
+- [Infrastructure guide](./docs/infrastructure.md) - Detailed setup and comparisons
 
 ## Key Technologies
 
@@ -140,8 +146,9 @@ This guide is open source! Contributions welcome:
 - Multiple access options (WireGuard, Tailscale, or Cloudflare Tunnel)
 
 **Read more:**
-- [Privacy explained](./docs/privacy.md) - How your data stays private
-- [Infrastructure options](./docs/infrastructure.md) - VPS providers, home servers, avoiding big tech
+- [Independent VPS providers](./docs/vps-providers.md) - Fasthosts, Hetzner, OVH, and others (no Google/Amazon/Microsoft)
+- [Privacy explained](./docs/privacy.md) - How your data stays private with local models
+- [Infrastructure options](./docs/infrastructure.md) - Home servers, networking, and access methods
 
 ## For Your Implementation
 
