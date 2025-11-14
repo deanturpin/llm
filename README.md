@@ -59,6 +59,7 @@ llm-guide/
     ├── vps-providers.md         # Independent VPS providers (avoid big tech)
     ├── migration.md             # Moving between providers (fully portable)
     ├── privacy.md               # Privacy and data security explained
+    ├── security.md              # Security hardening and encryption guide
     ├── infrastructure.md        # Home server, networking, access methods
     ├── architecture.md          # Technical architecture details
     └── setup.md                 # Deployment walkthrough
@@ -151,6 +152,7 @@ This guide is open source! Contributions welcome:
 - [Independent VPS providers](./docs/vps-providers.md) - Fasthosts, Hetzner, OVH, and others (no Google/Amazon/Microsoft)
 - [Migration guide](./docs/migration.md) - Easily move between providers or to home server
 - [Privacy explained](./docs/privacy.md) - How your data stays private with local models
+- [Security guide](./docs/security.md) - Hardening, encryption and operational security
 - [Infrastructure options](./docs/infrastructure.md) - Home servers, networking, and access methods
 
 ## For Your Implementation
