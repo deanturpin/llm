@@ -57,6 +57,7 @@ llm-guide/
 │   └── photo-management/        # Docker configs, code for photos
 └── docs/
     ├── vps-providers.md         # Independent VPS providers (avoid big tech)
+    ├── migration.md             # Moving between providers (fully portable)
     ├── privacy.md               # Privacy and data security explained
     ├── infrastructure.md        # Home server, networking, access methods
     ├── architecture.md          # Technical architecture details
@@ -117,6 +118,7 @@ All use cases follow this pattern:
 
 See guides:
 - [VPS providers](./docs/vps-providers.md) - Independent providers (no Google/Amazon/Microsoft)
+- [Migration guide](./docs/migration.md) - Moving between providers (30-60 min, fully portable)
 - [Infrastructure guide](./docs/infrastructure.md) - Detailed setup and comparisons
 
 ## Key Technologies
@@ -147,6 +149,7 @@ This guide is open source! Contributions welcome:
 
 **Read more:**
 - [Independent VPS providers](./docs/vps-providers.md) - Fasthosts, Hetzner, OVH, and others (no Google/Amazon/Microsoft)
+- [Migration guide](./docs/migration.md) - Easily move between providers or to home server
 - [Privacy explained](./docs/privacy.md) - How your data stays private with local models
 - [Infrastructure options](./docs/infrastructure.md) - Home servers, networking, and access methods
 
